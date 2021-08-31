@@ -1,0 +1,5 @@
+{these are type def's for time. }
+
+ Timestamp  = array [0..6] of byte;
+ 
+ 

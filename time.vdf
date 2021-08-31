@@ -1,0 +1,5 @@
+{these are external variable def's for Time }
+
+ CurrentTime    : external TimeStamp;
+ 
+ 

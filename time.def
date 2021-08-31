@@ -1,0 +1,12 @@
+(* these are the external defs for time.inc *)
+
+external Procedure Init555Timer;
+external Procedure Start555;
+external function Expired555 : boolean;
+external procedure delay(ms : integer);
+external function RTCGetSec : integer;
+external Procedure RTCGetTime;
+external procedure RTCZeroCounter;
+external function RTCCounter : integer;
+
+
